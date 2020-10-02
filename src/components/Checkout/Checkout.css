@@ -1,0 +1,113 @@
+.checkout__banner{
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout__container{
+    background-color: rgba(234,237,237);
+    display: flex;
+    flex-direction: column;
+}
+
+.checkproduct{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__product{
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  background-color: white;
+  margin-left: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+ 
+  /* justify-content: space-between; */
+  
+}
+@media screen and (max-width: 700px) {
+    .checkout__product{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    .checkout__product{
+        width: 70%;
+    }
+}
+
+.checkout__subtotal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+.product__info{
+     display: flex; 
+     padding: 20px;   
+}
+
+
+.checkout__product__image{
+    object-fit: contain;
+    width: 100%;
+    max-height: 150px;
+    margin-top: 5px;
+}
+.checkout__product__title{
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+
+}
+.product__btn{
+    background-color: #f0c14b;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 100%;
+    padding: 4px;
+    margin-top: 20px;
+    outline: none;
+
+}
+
+.banner__subtotal{
+    display: flex;
+    
+}
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+}
+.subtotal__title {
+    font-size: 22px;
+}
+.subtotal__price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.subtotal__total__price{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}

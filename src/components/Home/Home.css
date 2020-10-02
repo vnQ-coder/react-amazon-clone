@@ -1,0 +1,24 @@
+/*
+ mask-image to give gradient to an image
+*/
+
+
+.banner_image{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0 , 0 , 0 , 1) , rgba(0,0,0,0));
+    
+}
+.home{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.product__home{
+    display: flex;
+    z-index: 1;
+}
+.home__container{
+    background-color: rgba(234,237,237);
+
+}
